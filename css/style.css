@@ -319,3 +319,122 @@ a {
     right: 10px;
     cursor: pointer;
 }
+
+/* ============================
+   📱 모바일 반응형 스타일
+   ============================ */
+@media (max-width: 768px) {
+  /* 전체 레이아웃 */
+  #wrap {
+    height: auto;
+  }
+
+  #aside,
+  #content,
+  #slide {
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .logo img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .menu>li>a,
+  .sub li a {
+    width: 100%;
+  }
+
+  .spot li {
+    float: none;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .spot li a {
+    width: 100%;
+    border: none;
+  }
+
+  .banner,
+  .notice,
+  .gallery,
+  .link {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner .thum,
+  .banner .text,
+  .banner .arrow {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner .text {
+    padding: 5px;
+  }
+
+  .gallery ul {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .gallery ul li {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+
+  .link ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .link ul li {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+
+  #footer {
+    height: auto;
+    padding: 20px 10px;
+    box-sizing: border-box;
+  }
+
+  .flogo,
+  .nav_f,
+  .copy {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav_f ul {
+    padding: 0;
+  }
+
+  .nav_f ul li {
+    margin: 10px 5px;
+    float: none;
+    display: inline-block;
+  }
+
+  .copy {
+    line-height: normal;
+    margin-top: 10px;
+  }
+
+  .pop_wrap {
+    width: 90%;
+    left: 5%;
+    top: 20%;
+    transform: none;
+  }
+}
