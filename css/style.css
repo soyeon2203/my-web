@@ -1,0 +1,398 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Freesentation';
+  src: url('./fonts/Freesentation-5Medium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Freesentation';
+  margin: 0;
+  padding: 0;
+  color: #333;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+
+#wrap {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#header {
+  margin: 0 auto;
+  width: 1920px;
+  height: 1080px;
+  float: left;
+  overflow: hidden;
+}
+
+
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  z-index: 6;
+}
+
+.nav {
+}
+.menu {
+  position: absolute;
+  
+  z-index: 10;
+  top: 40px;
+  left: 1400px;
+}
+.menu>li {
+  float: right;
+}
+.menu>li>a {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Paperlogymenu';
+  src: url('./fonts/Freesentation-6SemiBold.ttf') format('truetype');
+  font-style: normal;
+}
+.menu>li>a {
+  font-family: 'Paperlogymenu', sans-serif;
+}
+
+@font-face {
+  font-family: 'Paperlogyhover';
+  src: url('./fonts/Freesentation-5Medium.ttf') format('truetype');
+  font-style: normal;
+}
+.menu>li>a:hover {
+  font-family: 'Paperlogyhover', sans-serif;
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  border-bottom: 2px solid #ff0000;
+}
+.sub {
+  display: none;
+}
+.sub li {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  background-color: aliceblue;
+}
+.sub li a {
+  text-align: center;
+}
+.sub li a:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('./fonts/Paperlogy-6SemiBold.ttf') format('truetype');
+  font-style: normal;
+}
+
+.font-custom {
+  font-family: 'Paperlogy', sans-serif;
+  font-size: 250px;
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  color: #ff0000;
+  z-index: 9;
+}
+
+
+/* 신제품출시 */
+.promo-box {
+  position: absolute;
+  
+  top: 425px;
+  left: 850px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px 30px;
+  width: 250px;
+  height: 250px;
+  font-family: 'Freesentation', sans-serif;
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.5);
+}
+
+
+
+.promo-box h3 {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@font-face {
+  font-family: 'Freesentationh3';
+  src: url('./fonts/Freesentation-6SemiBold.ttf') format('truetype');
+  font-style: normal;
+}
+
+.promo-box a strong{
+  font-family: 'Freesentationh3', sans-serif;
+}
+
+.promo-box .red {
+  color: red;
+  font-weight: bold;
+}
+
+.promo-box img {
+  padding-left: 15px;
+  top: 26px;
+  position: absolute;
+  z-index: 11;
+}
+
+.promo-box p {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+
+.promo-box .event {
+  padding: 60px 0;
+  font-size: 12px;
+  color: #333;
+  font-size: 18px;
+}
+
+.bgup {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+@font-face {
+  font-family: 'Bogimber';
+  src: url('./fonts/Bogimber.ttf') format('truetype');
+  font-style: normal;
+}
+
+.font-custom2 {
+  font-family: 'Bogimber', sans-serif;
+  font-size: 60px;
+  position: absolute;
+  left: 110px;
+  top: 680px;
+  color: #ffffff;
+  z-index: 9;
+}
+
+
+.promo-box2 {
+    position: absolute;
+    z-index: 11;
+  top: 800px;
+  left: 110px;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 20px 30px;
+  width: 300px;
+  height: 80px;
+  font-family: 'Freesentation', sans-serif;
+}
+.promo-box2 a {}
+.promo-box2 a p{
+text-align: center;
+line-height: 40px;
+font-size: 30px;
+float: left;
+margin-left: 10px;
+}
+
+.promo-box2 a img {
+  margin-top: 4px;
+  padding-left: 10px;
+  float: left;
+}
+
+@font-face {
+  font-family: 'Freesentationpromo3';
+  src: url('./fonts/Freesentation-6SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-custom3 {
+  font-family: 'Freesentationpromo3', sans-serif;
+}
+
+#new {
+  margin: 0 auto;
+  width: 1920px;
+  height: 1080px;
+  float: left;
+  position: relative;
+}
+
+.newbg {}
+.newbg img {}
+
+.banner {}
+.banner ul {
+  position: absolute;
+  top: 600px;
+  left: 180px;
+}
+.banner ul li {
+  padding: 20px;
+  float: left;
+}
+.banner ul li a {}
+.banner ul li a img {}
+
+
+/* gif */
+
+
+#content {
+  margin: 0 auto;
+  width: 1920px;
+  height: 1080px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.gif {}
+.gif img {}
+
+.content_tit {
+  position: absolute;
+  top: 0;
+  left: 860px;
+}
+.content_tit a {}
+.content_tit a img {}
+
+
+.content_txt {
+  position: 10;
+  top: 0;
+  width: 600px;
+  height: 600px;
+  background-color: #fff;
+}
+.content_txtbox {
+    position: absolute;
+    z-index: 11;
+  top: 200px;
+  left: 1300px;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 20px 30px;
+  width: 300px;
+  height: 80px;
+  font-family: 'Freesentation', sans-serif;
+  font-size: 30px;
+  float: left;
+}
+
+.content_txtbox h3 {
+  float: left;
+  padding-left: 15px;
+}
+.content_txtbox img {
+  padding: 4px 0;
+  padding-left: 10px;
+}
+
+.txt {
+  position: absolute;
+  top: 300px;
+  right: 185px;
+  text-align: center;
+}
+.txt h1 {
+  font-size: 60px;
+  color: #fff;
+}
+.txt h2 {
+  font-size: 200px;
+  color: #0b1400;
+  text-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+@font-face {
+  font-family: 'Paperlogytxt';
+  src: url('./fonts/Paperlogy-6SemiBold.ttf') format('truetype');
+  font-style: normal;
+}
+
+.content_txt .txt h2{
+  font-family: 'Paperlogytxt', sans-serif;
+}
+
+
+.txt p {
+  color: #fff;
+  font-size: 45px;
+}
+.txt span {
+  color: #fff;
+  font-size: 35px;
+}
+
+@font-face {
+  font-family: 'Freesentationcontent_txtbox';
+  src: url('./fonts/Freesentation-6SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.content_txtbox h3 {
+  font-family: 'Freesentationcontent_txtbox', sans-serif;
+}
+
+
+#slide {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.slidebox {}
+
+.slidebox a {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  display: block;
+}
